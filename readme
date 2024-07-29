@@ -1,0 +1,27 @@
+# Flight Status and Notifications
+
+## Description
+This project provides real-time flight status updates and notifications to passengers.
+
+## Features
+- Real-time flight status updates (delays, cancellations, gate changes)
+- Push notifications for flight status changes via Kafka
+- Email notifications for flight status changes
+- Integration with mock airport data
+
+## Tech Stack
+- Frontend: React.js
+- Backend: Flask (Python)
+- Database: MongoDB
+- Notifications: Kafka, SMTP
+
+## Setup
+1. Clone the repository
+2. Install dependencies for the backend and frontend
+3. Run MongoDB and Kafka
+4. Start the backend and frontend servers
+
+## Additional Tools/Libraries
+- Axios for API requests in React
+- Confluent Kafka Python client for Kafka integration in Flask
+- smtplib for email notifications
